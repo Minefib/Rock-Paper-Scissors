@@ -1,9 +1,9 @@
 import random
 
-choices = ["rock", "paper", "scissor"]
-beats = {"rock": "scissor", "paper": "rock", "scissor": "paper"}
+choices = ["rock", "paper", "scissors"]
+beats = {"rock": "scissors", "paper": "rock", "scissors": "paper"}
 
-userInput = str.lower(input("Pick a rock, paper scissor: "))
+userInput = str.lower(input("Pick a rock, paper scissors: "))
 
 if userInput not in choices:
     print("Invalid")
@@ -18,3 +18,4 @@ else:
         print("Win")
     else:
         print("Lose")
+
